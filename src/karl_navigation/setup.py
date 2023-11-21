@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'drive2 = karl_navigation.drive2:main'
+            'drive2 = karl_navigation.drive2:main',
+            'nav2room = karl_navigation.nav_to_room:main'
         ],
     },
 )
